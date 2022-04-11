@@ -24,7 +24,9 @@ body {
   width: 95px;
   height: 95px;
   left: 20%;
-  animation: rotate 10s linear infinite;
+  &:hover {
+    animation: rotate 10s linear infinite;
+  }
 }
 .side {
   position: absolute;
@@ -61,7 +63,9 @@ body {
   transform: translateZ(-100px);
   transform-style: preserve-3d;
   width: 100%;
-  animation: rotate 10s linear infinite;
+  &:hover {
+    animation: rotate 10s linear infinite;
+  }
 }
 .side-3d {
   //   background: rgba(45, 179, 74, 0.3);

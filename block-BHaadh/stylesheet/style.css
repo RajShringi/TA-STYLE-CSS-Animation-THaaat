@@ -29,6 +29,9 @@ body {
   width: 95px;
   height: 95px;
   left: 20%;
+}
+
+.cube:hover {
   -webkit-animation: rotate 10s linear infinite;
           animation: rotate 10s linear infinite;
 }
@@ -78,6 +81,9 @@ body {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   width: 100%;
+}
+
+.cube-3d:hover {
   -webkit-animation: rotate 10s linear infinite;
           animation: rotate 10s linear infinite;
 }
